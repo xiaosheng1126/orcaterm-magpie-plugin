@@ -1,0 +1,14 @@
+{
+  "name": "opencode-orcaterm-auth",
+  "version": "0.1.0",
+  "description": "OpenCode provider plugin for OrcaTerm's built-in AI models (GLM-5.3 etc.) via Tencent Cloud's lightai endpoint",
+  "type": "module",
+  "main": "./index.mjs",
+  "exports": "./index.mjs",
+  "files": ["index.mjs", "README.md"],
+  "keywords": ["opencode", "opencode-plugin", "orcaterm", "glm", "tencent"],
+  "license": "MIT",
+  "magpie": {
+    "maxConcurrency": 2
+  }
+}
